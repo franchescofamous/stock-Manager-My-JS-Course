@@ -8,7 +8,74 @@
     <title>Document</title>
   </head>
   <body>
-    <main></main>
+    <main>
+      <div class="register">
+        <button class="register__btn">Add Product</button>
+      </div>
+      <div class="form">
+        <form hidden class="register__form">
+          <table class="table__form">
+            <tbody>
+              <tr>
+                <td>
+                  <label for="productName">Product Name: </label>
+                </td>
+                <td>
+                  <input type="text" name="" id="productName" required /> <br />
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <label for="marketPrice">Market Price: </label>
+                </td>
+                <td>
+                  <input type="number" name="" id="marketPrice" required />
+                  <br />
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <label for="sellingPrice">Selling Price: </label>
+                </td>
+                <td>
+                  <input type="number" name="" id="sellingPrice" required />
+                  <br />
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <label for="productQuantity">Stock Quantity: </label>
+                </td>
+                <td>
+                  <input type="number" name="" id="productQuantity" required />
+                  <br />
+                </td>
+              </tr>
+              <tr class="submit">
+                <td></td>
+                <td colspan="2">
+                  <button type="submit" class="formSubmit">Submit</button>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </form>
+      </div>
+      <div class="productList">
+        <table>
+          <thead>
+            <tr class="thead">
+              <th>Product Name</th>
+              <th>Market Price</th>
+              <th>Selling Price</th>
+              <th>Stock Quantity</th>
+              <th>Options</th>
+            </tr>
+          </thead>
+          <tbody class="productList"></tbody>
+        </table>
+      </div>
+    </main>
     <script src="./index.js"></script>
   </body>
 </html>

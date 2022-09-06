@@ -1,0 +1,47 @@
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3vh;
+  padding: 5vh;
+}
+.register__btn {
+  background-color: rgb(27, 27, 116);
+  color: white;
+  height: 3rem;
+  width: 12rem;
+  border: 1px solid white;
+  border-radius: 7px;
+  font-size: 3.5vh;
+  cursor: pointer;
+}
+.productList {
+  width: 90%;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+.thead {
+  border-bottom: 2px solid black;
+}
+th {
+  font-size: 4vh;
+}
+
+tr.submit button {
+  margin-top: 3vh;
+  cursor: pointer;
+  height: 4vh;
+  width: 16vh;
+  background-color: rgba(84, 175, 84, 0.932);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: large;
+}
+
+tbody.productList td {
+  text-align: center;
+}
